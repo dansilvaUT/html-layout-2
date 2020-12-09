@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+    background: transparent;
+    color: white;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header-logo {
+    width: 10vw;
+    height: 10vh;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: 650px;
+    left: 40px;
+}
+
+.first {
+    background: #ffffff url('https://c4.wallpaperflare.com/wallpaper/307/44/955/spacex-rocket-spaceship-digital-art-wallpaper-preview.jpg') no-repeat;
+    
+}
+
+p {
+    width: 50%;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: 300;
+    width: 70%;
+}
+  
+  
+button {
+    padding: 15px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.second {
+    background: #ffffff url('https://static.scientificamerican.com/blogs/cache/file/1D4440C5-CD59-4A53-A23648FF2C7CD0DD_source.jpg?w=590&h=800&B9BBE026-DB91-4291-B39DC8D859778498') no-repeat;
+}
+
+.third {
+    background: #ffffff url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/andromeda-galaxy-royalty-free-image-1585682435.jpg?crop=1.00xw:0.752xh;0,0.113xh&resize=1200:*') no-repeat;
+}
+
+.fourth {
+    background: #ffffff url('https://images.theconversation.com/files/340465/original/file-20200609-176580-1qp5oqg.jpg?ixlib=rb-1.1.0&rect=0%2C350%2C4588%2C2294&q=45&auto=format&w=1356&h=668&fit=crop') no-repeat;
+}
+
+.fifth {
+    background: #ffffff url('https://cnet2.cbsistatic.com/img/Wu8hQzeSzjs_0bkdIRA8u8ZfFbA=/940x0/2020/02/10/dcfa3a83-2410-48e5-8f92-18e2f7819c9c/starship-mk1-night-v2-1.jpg') no-repeat;
+}
+
+.sixth {
+    background: #ffffff url('https://cdn.flickeringmyth.com/wp-content/uploads/2019/06/X-Men-Dark-Phoenix-1-600x245.jpg') no-repeat;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    padding: 1% 5%;
+    font-size: 10px;
+    text-align:center;
+    background-color: black;
+    color: white;
+}
